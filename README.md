@@ -8,14 +8,14 @@ You're trading a bit of speed for stability.
 
 ComfyUI settings used:
 
-Normal VRAM
-Reserved 0.5
-Pytorch Cross Attention
-Preview method automatic
-Ram Pressure Cache
---force-non-blocking
+* Normal VRAM
+* Reserved 0.5
+* Pytorch Cross Attention
+* Preview method automatic
+* Ram Pressure Cache
+* --force-non-blocking
 
 ENV VARS:
 
-UR_L0_USE_RELAXED_ALLOCATION_LIMITS=1
-SYCL_CACHE_PERSISTENT=1
+* UR_L0_USE_RELAXED_ALLOCATION_LIMITS=1
+* SYCL_CACHE_PERSISTENT=1
