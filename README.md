@@ -16,8 +16,9 @@ ComfyUI settings used:
 * --force-non-blocking
 
 if black screens still persist too much, I include;
-    * --force-fp16
-    * ~24 steps
+
+* --force-fp16
+* ~24 steps
 
 ENV VARS:
 
