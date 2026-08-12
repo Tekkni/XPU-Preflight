@@ -24,6 +24,11 @@ Environment variables:
 * UR_L0_USE_RELAXED_ALLOCATION_LIMITS=1
 * SYCL_CACHE_PERSISTENT=1
 
+VAE used: I do not use the default VAE — I recommend testing with an external one so you have an A/B reference. I used Illustrious XL v1.0
+
+⚠️⚠️⚠️ Might not be compatible with DPM++ family of samplers and/or ancestral-types ⚠️⚠️⚠️
+
+⚠️⚠️⚠️ If your preview stays black, try switching to TAESD previews ⚠️⚠️⚠️
 
 HOW TO INSTALL:
 
@@ -34,7 +39,7 @@ To check if it's active your log/console should state:
 
 XPU Preflight active — GPU state will be flushed before every generation.
 
-⚠️⚠️⚠️ Might not be compatible with DPM++ family of samplers and/or ancestral-types ⚠️⚠️⚠️
 
-⚠️⚠️⚠️ If your preview stays black, try switching to TAESD previews ⚠️⚠️⚠️
+
+
 
