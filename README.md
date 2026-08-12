@@ -14,10 +14,10 @@ ComfyUI settings used:
 * Preview method automatic
 * Ram Pressure Cache
 * --force-non-blocking
-(if black screens still persist too much, I include;
+
+if black screens still persist too much, I include;
     * --force-fp16
     * ~24 steps
-)
 
 ENV VARS:
 
