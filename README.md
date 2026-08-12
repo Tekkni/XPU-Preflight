@@ -23,3 +23,13 @@ Environment variables:
 
 * UR_L0_USE_RELAXED_ALLOCATION_LIMITS=1
 * SYCL_CACHE_PERSISTENT=1
+
+
+HOW TO INSTALL:
+
+Just drop the file in \custom_nodes\
+That's it. IF you WANT a directory just put it in a directory name of your choosing and rename it to __init__.py
+
+To check if it's active your log/console should state: 
+
+XPU Preflight active — GPU state will be flushed before every generation.
