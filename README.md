@@ -4,7 +4,7 @@ I have an Intel Arc B580 and it bothered me that I couldn't use Stable Diffusion
 
 It probably won't prevent black images entirely, but it does help stop them from becoming persistent. Without it, once you get a black image, every generation after that goes black too. This extension resets the VAE GPU state before each generation, which breaks that chain.
 
-You're trading a bit of speed for stability.
+You're trading a bit of speed for stability. A varied set of Illustrious/NoobAI models were tested.
 
 ComfyUI settings used:
 
@@ -14,6 +14,10 @@ ComfyUI settings used:
 * Preview method automatic
 * Ram Pressure Cache
 * --force-non-blocking
+(if black screens still persist too much, I include;
+    * --force-fp16
+    * ~24 steps
+)
 
 ENV VARS:
 
