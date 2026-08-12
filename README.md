@@ -24,7 +24,8 @@ Environment variables:
 * UR_L0_USE_RELAXED_ALLOCATION_LIMITS=1
 * SYCL_CACHE_PERSISTENT=1
 
-VAE used: I do not use the default VAE — I recommend testing with an external one so you have an A/B reference. I used Illustrious XL v1.0 (https://civitai.com/models/1693029/illustrious-xl-v10?modelVersionId=1916060)
+VAE used: I do not use the default VAE — I recommend testing with an external one so you have an A/B reference. 
+I used Illustrious XL v1.0 (https://civitai.com/models/1693029/illustrious-xl-v10?modelVersionId=1916060)
 
 ⚠️⚠️⚠️ Might not be compatible with DPM++ family of samplers and/or ancestral-types ⚠️⚠️⚠️
 
