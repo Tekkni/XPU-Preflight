@@ -35,3 +35,6 @@ To check if it's active your log/console should state:
 XPU Preflight active — GPU state will be flushed before every generation.
 
 ⚠️⚠️⚠️ Might not be compatible with DPM++ family of samplers and/or ancestral-types ⚠️⚠️⚠️
+
+⚠️⚠️⚠️ If your preview stays black, try switching to TAESD previews ⚠️⚠️⚠️
+
