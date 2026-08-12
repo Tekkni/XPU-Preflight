@@ -6,21 +6,20 @@ It probably won't prevent black images entirely, but it does help stop them from
 
 You're trading a bit of speed for stability. A varied set of Illustrious/NoobAI models were tested.
 
-ComfyUI settings used:
+My working settings:
 
-* Normal VRAM
-* Reserved 0.5
-* Pytorch Cross Attention
-* Preview method automatic
-* Ram Pressure Cache
-* --force-non-blocking
+Normal VRAM / Reserved 0.5
+PyTorch Cross Attention
+Preview method: Automatic
+RAM Pressure Cache
+--force-non-blocking (not black image related, helps with VRAM transfer)
 
-if black screens still persist too much, I include;
+If black images still persist:
 
-* --force-fp16
-* ~24 steps
+Add --force-fp16
+Keep steps around ~24
 
-ENV VARS:
+Environment variables:
 
-* UR_L0_USE_RELAXED_ALLOCATION_LIMITS=1
-* SYCL_CACHE_PERSISTENT=1
+UR_L0_USE_RELAXED_ALLOCATION_LIMITS=1
+SYCL_CACHE_PERSISTENT=1
