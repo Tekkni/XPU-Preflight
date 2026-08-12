@@ -8,18 +8,18 @@ You're trading a bit of speed for stability. A varied set of Illustrious/NoobAI 
 
 My working settings:
 
-Normal VRAM / Reserved 0.5
-PyTorch Cross Attention
-Preview method: Automatic
-RAM Pressure Cache
---force-non-blocking (not black image related, helps with VRAM transfer)
+* Normal VRAM / Reserved 0.5
+* PyTorch Cross Attention
+* Preview method: Automatic
+* RAM Pressure Cache
+* --force-non-blocking (not black image related, helps with VRAM transfer)
 
 If black images still persist:
 
-Add --force-fp16
-Keep steps around ~24
+* Add --force-fp16
+* Keep steps around ~24
 
 Environment variables:
 
-UR_L0_USE_RELAXED_ALLOCATION_LIMITS=1
-SYCL_CACHE_PERSISTENT=1
+* UR_L0_USE_RELAXED_ALLOCATION_LIMITS=1
+* SYCL_CACHE_PERSISTENT=1
