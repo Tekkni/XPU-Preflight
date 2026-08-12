@@ -33,3 +33,5 @@ That's it. IF you WANT a directory just put it in a directory name of your choos
 To check if it's active your log/console should state: 
 
 XPU Preflight active — GPU state will be flushed before every generation.
+
+⚠️⚠️⚠️ Might not be compatible with DPM++ family of samplers and/or ancestral-types ⚠️⚠️⚠️
